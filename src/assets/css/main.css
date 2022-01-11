@@ -190,15 +190,12 @@ h1 {
 
 .information-menu {
     display: flex;
-}
-
-.border-horizont-information-menu {
-    margin-top: 50px;
+    margin-top: 20px;
     border-top: 1px solid gray;
-    width: 100%;
 }
 
-.left-conteiner-information-menu {
+
+.helpful-links {
     width: 650px;
     display: flex;
 }

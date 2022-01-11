@@ -57,7 +57,7 @@ h2 {
     opacity: 0.9;
 }
 
-.dropbtn {
+.drop-btn {
     background-color: #ffffff;
     color: rgb(0, 0, 0);
     padding: 16px;
@@ -98,7 +98,7 @@ h2 {
     background-color: #fff;
 }
 
-.dropdown:hover .dropbtn {
+.dropdown:hover .drop-btn {
     background-color: #ffffff;
 }
 
@@ -217,7 +217,7 @@ h2 {
     width: 100%;
 }
 
-.left-conteiner-information-menu {
+.helpful-links {
     width: 650px;
     display: flex;
 }
