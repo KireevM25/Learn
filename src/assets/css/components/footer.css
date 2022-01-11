@@ -1,0 +1,166 @@
+.information-menu {
+    display: flex;
+    margin-top: 20px;
+    border-top: solid 1px gray;
+    border-bottom: solid 1px gray;
+}
+
+
+.helpful-links {
+    width: 650px;
+    display: flex;
+}
+
+.table-quick-links-information-menu {
+    margin-left: 50px;   
+    width: 200px; 
+}
+
+.table-quick-links-information-menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.table-quick-links-information-menu p {
+    padding-left: 37px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.table-customer-care-information-menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.table-quick-links-information-menu li {
+    width: 100px;
+    list-style-type: none;
+}
+
+.table-customer-care-information-menu {
+    margin-left: 70px;
+    width: 200px;
+}
+
+.table-customer-care-information-menu p {
+    font-size: 22px;
+    padding-left: 39px;
+    font-weight: bold;
+}
+
+.table-customer-care-information-menu li {
+    list-style-type: none;
+}
+
+.border-vertical-information-menu {
+    border-left: solid 1px gray;
+    margin-left: 20px;
+    height: 400px;
+}
+
+.right-information-menu {
+    width: 650px;
+    height: 130px;
+    display: flex;
+}
+
+.question-tweet-conteiner {
+    margin-left: 80px;
+    width: 200px;
+    height: 50px;
+}
+
+.question-logo-name {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.tweet-conteiner {
+display: flex;
+height: 40px;
+width: 170px;
+justify-content: space-between;
+}
+
+.tweet-link {
+    height: 25px;
+    margin-top: 0px;
+}
+
+.tweet-link a {
+    text-decoration: none;
+    color: black;
+}
+
+.question-logo-img {
+    height: 16px;
+    margin-top: 0px;
+}
+
+.contact-tel-conteiner {
+    margin-left: 50px;
+    height: 100px;
+    width: 200px;
+}
+
+.order-by-phone-name{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.contact-tel-link {
+    text-decoration: none;
+    color: #000;
+}
+
+.commet-main-conteiner {
+    width: 600px;
+    height: 110px;    
+}
+.commet {
+    width: 400px;
+    height: 70px;
+    margin-left: 80px;
+    color: gray;
+    font-size: 17px;
+}
+
+.social-networks {
+    width: 45px;
+    margin-left: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+}
+
+.inc {
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.share {
+    margin-left: 300px;
+    font-size: 25px;
+}
+.footer-nav {
+    width: 400px;
+    align-self: center;
+    margin-left: 155px;
+}
+
+.footer-nav nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-nav nav li {
+    list-style-type: none;
+}
+
+.footer-nav nav {
+    display: flex;
+    justify-content: space-between;
+}

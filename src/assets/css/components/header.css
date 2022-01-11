@@ -4,6 +4,10 @@
     height: 60px;
 }
 
+.logo a {
+    text-decoration: none;
+    color: black;
+}
 
 .email {
     border: none;

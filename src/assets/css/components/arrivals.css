@@ -1,0 +1,19 @@
+.new-arrivals {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.href {
+    text-decoration: none;
+}
+
+.product-description {
+    text-align: center;
+    color: black;
+}
+
+.price {
+    text-align: center;
+    color: black;
+}
