@@ -5,48 +5,21 @@ html {
     margin: 0 auto;
 }
 
-.logo {
-    display: flex;
-    align-self: center;
-    height: 60px;
-}
-
 h2 {
     margin-left: 40px;
     align-self: center;
 }
+
 .input {
     align-self: center;
     margin-left: 760px;
 }
 
-.email {
-    border: none;
-}
 
-.bag {
-    border: none;
-}
-.menu nav ul {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    width: 950px;
-}
 
-.list a {
-    text-decoration: none;
-    color: black;
-}
+/**
 
-.search{
-    margin-top: -37px;
-    margin-left: 1110px ;
-}
-
-.search input {
-    border: none;
-}
+ */
 
 .slideshow-container {
     max-width: 1000px;
