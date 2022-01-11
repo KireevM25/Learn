@@ -11,32 +11,9 @@
     <link href="src/assets/css/pages/main-page.css" rel="stylesheet">
 </head>
 <body>
-<header>
-    <div class="logo">
-        <h2>Template</h2>
-        <div class="input">
-            <input class="email" placeholder="E-mail sing up">
-            <button class="bag">Bag (0)</button>
-        </div>
-    </div>
-    <div class="menu">
-        <nav>
-            <ul>
-                <li><a href="src/pages/catalog.html">Woman</a></li>
-                <li><a href="#">Man</a></li>
-                <li><a href="#">Handbags</a></li>
-                <li><a href="#">Accessories</a></li>
-                <li><a href="#">Sale</a></li>
-                <li><a href="#">New Arrivals</a></li>
-                <li><a href="#">Clearance</a></li>
-                <li><a href="#">Store Locator</a></li>
-            </ul>
-        </nav>
-    </div>
-    <div class="search">
-        <input placeholder="search" type="text">
-    </div>
-</header>
+
+<div data-template="src/components/header.html"></div>
+
 <div class="my-slides">
     <div class="carousel">
         <div class="carousel-inner">
@@ -169,19 +146,9 @@
     </div>
 </div>
 <div class="border-horizont-footer"></div>
-<div class="footer">
-    <div class="inc"><p><b>©2010-2015, The Template Group inc.</b></p></div>
-    <div>
-        <p><span class="share"><b>Share</b></span>&nbsp;1500</p>
-    </div>
-    <div class="footer-nav">
-        <nav>
-            <li><a href="#"><b>Legal notice</b></a></li>
-            <li><a href="#"><b>Privacy polocy</b></a></li>
-            <li><a href="#"><b>Site map</b></a></li>
-        </nav>
-    </div>
-</div>
 
+<div data-template="src/components/footer.html"></div>
+
+<script src="src/scripts/templates.js"></script>
 </body>
 </html>

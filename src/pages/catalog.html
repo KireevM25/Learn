@@ -10,32 +10,8 @@
     <link href="../assets/css/pages/catalog.css" rel="stylesheet">
 </head>
 <body>
-<header>
-    <div class="logo">
-        <h2>Template</h2>
-        <div class="input">
-            <input class="email" placeholder="E-mail sing up" type="email">
-            <input class="bag" placeholder="Bag" type="bag">
-        </div>
-    </div>
-    <div class="menu">
-        <nav>
-            <ul>
-                <li class="list"><a href="#"><b>Wooman</b></a></li>
-                <li class="list"><a href="#"><b>Man</b></a></li>
-                <li class="list"><a href="#"><b>Handbags</b></a></li>
-                <li class="list"><a href="#"><b>Accessories</b></a></li>
-                <li class="list"><a href="#"><b>Sale</b></a></li>
-                <li class="list"><a href="#"><b>New Arrivals</b></a></li>
-                <li class="list"><a href="#"><b>Clearence</b></a></li>
-                <li class="list"><a href="#"><b>Store Locator</b></a></li>
-            </ul>
-        </nav>
-    </div>
-    <div class="search">
-        <input placeholder="search" type="text">
-    </div>
-</header>
+
+<div data-template="../components/header.html"></div>
 
 <div class="drop-down-menu">
     <div class="dropdown">
@@ -144,54 +120,14 @@
 </div>
 
 <div class="first-products-section">
-    <div class="product">
-        <a class="href" href="#"><img alt="" src="../assets/img/items/1.jpg">
-            <p class="name-product">Only Skinny Jeans</p>
-            <p class="">£65.50</p>
-        </a>
-    </div>
-    <div class="product">
-        <a class="href" href="#"><img alt="" src="../assets/img/items/1.jpg">
-            <p class="name-product">Only Skinny Jeans</p>
-            <p class="">£65.50</p>
-        </a>
-    </div>
-    <div class="product">
-        <a class="href" href="#"><img alt="" src="../assets/img/items/1.jpg">
-            <p class="name-product">Only Skinny Jeans</p>
-            <p class="">£65.50</p>
-        </a>
-    </div>
-    <div class="product">
-        <a class="href" href="#"><img alt="" src="../assets/img/items/1.jpg">
-            <p class="name-product">Only Skinny Jeans</p>
-            <p class="">£65.50</p>
-        </a>
-    </div>
-    <div class="product">
-        <a class="href" href="#"><img alt="" src="../assets/img/items/1.jpg">
-            <p class="name-product">Only Skinny Jeans</p>
-            <p class="">£65.50</p>
-        </a>
-    </div>
-    <div class="product">
-        <a class="href" href="#"><img alt="" src="../assets/img/items/1.jpg">
-            <p class="name-product">Only Skinny Jeans</p>
-            <p class="">£65.50</p>
-        </a>
-    </div>
-    <div class="product">
-        <a class="href" href="#"><img alt="" src="../assets/img/items/1.jpg">
-            <p class="name-product">Only Skinny Jeans</p>
-            <p class="">£65.50</p>
-        </a>
-    </div>
-    <div class="product">
-        <a class="href" href="#"><img alt="" src="../assets/img/items/1.jpg">
-            <p class="name-product">Only Skinny Jeans</p>
-            <p class="">£65.50</p>
-        </a>
-    </div>
+    <div data-template="../components/item.html"></div>
+    <div data-template="../components/item.html"></div>
+    <div data-template="../components/item.html"></div>
+    <div data-template="../components/item.html"></div>
+    <div data-template="../components/item.html"></div>
+    <div data-template="../components/item.html"></div>
+    <div data-template="../components/item.html"></div>
+    <div data-template="../components/item.html"></div>
 </div>
 <div class="button">
     <div class="button-link">
@@ -271,20 +207,12 @@
     </div>
 </div>
 <div class="border-horizont-footer"></div>
-<div class="footer">
-    <div class="inc"><p><b>©2010-2015, The Template Group inc.</b></p></div>
-    <div>
-        <p><span class="share"><b>Share</b></span>&nbsp;1500</p>
-    </div>
-    <div class="footer-nav">
-        <nav>
-            <li><a href="#"><b>Legal notice</b></a></li>
-            <li><a href="#"><b>Privacy polocy</b></a></li>
-            <li><a href="#"><b>Site map</b></a></li>
-        </nav>
-    </div>
-</div>
 
+
+<div data-template="../components/footer.html"></div>
+
+
+<script src="../scripts/templates.js"></script>
 
 </body>
 </html>
