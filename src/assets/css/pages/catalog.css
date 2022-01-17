@@ -49,24 +49,6 @@
     text-align: center;
 }
 
-.product {
-    width: 25%;
-}
-
-.product img {
-    display: block;
-    margin: 0 auto;
-}
-
-.product img:hover {
-    filter: brightness(50%);
-    color: red;
-}
-
-.name-product:hover {
-    color: red;
-}
-
 .button {   
     width: 250px;
     margin: 0 auto;

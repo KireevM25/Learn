@@ -1,0 +1,36 @@
+.product {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+.product img:hover {
+    filter: brightness(50%);
+}
+
+.pop-up-text {
+    display: none;
+    position: absolute;
+    left: 80px;
+    top: 160px;
+    font-weight: bold;
+    color: red;
+    font-size: 25px;
+}
+
+.pop-up-text:hover {
+    display: block;
+}
+
+.product img {
+    width: 260px;
+    margin: 0 auto;
+}
+
+.name-product:hover {
+    color: red;
+}
+
+.link-product {
+    text-decoration: none;
+}
