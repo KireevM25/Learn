@@ -4,9 +4,7 @@ Array.from(document.querySelectorAll("[data-template]")).forEach(elem => {
     xhr.onreadystatechange= function() {
         if (this.readyState!==4) return;
         if (this.status!==200) return;
-        elem.outerHTML = this.responseText;
+        elem.outerHTML = this.responseText.replace(/@root/g, '/max');
     };
     xhr.send();
 })
-
-

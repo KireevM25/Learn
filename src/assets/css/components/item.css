@@ -4,22 +4,23 @@
     justify-content: space-around;
 }
 
-.product img:hover {
-    filter: brightness(50%);
+.product:hover .pop-up-text {
+    display: block;
+}
+
+.product-picture-wrapper {
+    position: relative;
 }
 
 .pop-up-text {
     display: none;
     position: absolute;
-    left: 80px;
-    top: 160px;
+    left: 0;
+    right: 0;
+    top: 50%;  /* TODO transform translate!! */
     font-weight: bold;
     color: red;
     font-size: 25px;
-}
-
-.pop-up-text:hover {
-    display: block;
 }
 
 .product img {
@@ -27,7 +28,11 @@
     margin: 0 auto;
 }
 
-.name-product:hover {
+.product:hover img {
+    filter: brightness(50%);
+}
+
+.product:hover .name-product {
     color: red;
 }
 
