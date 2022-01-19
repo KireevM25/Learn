@@ -1,14 +1,13 @@
 .drop-down-menu {
-
     margin-top: 25px;
     width: 100%;
     display: flex;
     justify-content: center;
-    position: fixed;
     top: 95px;
     left: 0;
-    z-index: 1;
-    opacity: 0.9;
+    opacity: 1;
+    z-index: 10;
+
 }
 
 .drop-btn {
@@ -23,6 +22,10 @@
     font-weight: bold;
 }
 
+.drop-btn:hover {
+    border-left: solid 1px gray ;
+    border-right: solid 1px gray;
+}
 
 .dropdown {
     position: relative;
@@ -34,7 +37,10 @@
     background-color: #f1f1f1;
     min-width: 160px;
     z-index: 1;
-    width: 216px;
+    width: 214px;
+    position: absolute;
+    border: solid 1px gray;
+    border-top: none;
 }
 
 .dropdown-content a {

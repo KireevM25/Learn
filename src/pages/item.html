@@ -5,49 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../assets/css/pages/item.css">
+    <link href="../assets/css/pages/item.css" rel="stylesheet">
+    <link href="../assets/css/main.css" rel="stylesheet">
+    <link href="../assets/css/components/header.css" rel="stylesheet">
+    <link href="../assets/css/components/arrivals.css" rel="stylesheet">
+    <link href="../assets/css/pages/main-page.css" rel="stylesheet">
+    <link href="../assets/css/components/arrivals.css" rel="stylesheet">
+    <link href="../assets/css/components/slider.css" rel="stylesheet">
+    <link href="../assets/css/components/footer.css" rel="stylesheet">
 </head>
 <body>
-    <div class="logo">
-        <h2>Template</h2>
-            <div class="input">
-                <input class="email" type="email" placeholder="E-mail sing up">
-                <input class="bag" type="bag" placeholder="Bag">
-            </div>
-    </div>
-        <div class="menu">
-            <nav>
-                <ul>
-                    <li class="list"> <a href="#"><b>Wooman</b></a></li>
-                    <li class="list"> <a href="#"><b>Man</b></a></li>
-                    <li class="list"> <a href="#"><b>Handbags</b></a></li>
-                    <li class="list"> <a href="#"><b>Accessories</b></a></li>
-                    <li class="list"> <a href="#"><b>Sale</b></a></li>
-                    <li class="list"> <a href="#"><b>New Arrivals</b></a></li>
-                    <li class="list"> <a href="#"><b>Clearence</b></a></li>
-                    <li class="list"> <a href="#"><b>Store Locator</b></a></li>
-                </ul>
-            </nav>
+
+    <div data-template="../components/header.html"></div>
+
+        <div class="nav-menu">
+            <a href="../pages/catalog.html">
+                <p>< Back to catalog</p></a>
         </div>
-            <div class="search">
-                <input type="text" placeholder="search">
-            </div>
-                <div class="nav-menu" >
-                    <a href="../pages/catalog.html"><p><b>< Back to catalog</b></p></a>
+
+            <div class="main-information">
+
+                <div class="main-img-product">
+                    <img src="../assets/img/items/thumb_0.jpg" alt="">
+                        <div class="img-product-small">
+                            <img src="../assets/img/items/thumb_2.jpg" alt="">
+                            <img src="../assets/img/items/thumb_1.jpg" alt="">
+                            <img src="../assets/img/items/thumb_2.jpg" alt="">
+                        </div>
                 </div>
-                    <div class="img-product-main">
-                        <img src="../assets/img/items/thumb_0.jpg" alt="">
-                            <div class="img-product-small">
-                                <img src="../assets/img/items/thumb_2.jpg" alt="">
-                                <img src="../assets/img/items/thumb_1.jpg" alt="">
-                                <img src="../assets/img/items/thumb_2.jpg" alt="">
-                            </div>
-                    </div>
-    
 
-
+                <div class="main-description-text">
+                    
                     <div>
-                        
+                        <h2>Dark classic fit suit</h2>
+                            <p>
+                                <i>Featuring fine Italian wool. this elegant suit has pick-stitch edging, cascade button <br>at the cuffs
+                                </i>
+                            </p>
+                        <p class="main-price-product">
+                            £180.60
+                        </p>
                     </div>
+                        
+                    <div class="options-product">
+                        <div class="size-product">
+                            <ul>
+                                <span>Size</span>
+                                <li><a href="#"> UK 52 </a></li>
+                                <li><a href="#"> UK 52 </a></li>
+                                <li><a href="#"> UK 52 </a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="color-product">
+                            <ul>
+                                <span>Color</span>
+                                <li><a href="#">Black</a></li>
+                                <li><a href="#">Blue</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+                    
+    
+    <div data-template="../components/footer.html"></div>
+
+    <script src="../scripts/templates.js"></script>
+
 </body>
 </html>

@@ -35,7 +35,7 @@
 .table-quick-links-information-menu li {
     width: 100px;
     list-style-type: none;
-    line-height: 25px;
+    line-height: 40px;
 }
 
 .table-customer-care-information-menu {
@@ -51,7 +51,7 @@
 
 .table-customer-care-information-menu li {
     list-style-type: none;
-    line-height: 25px;
+    line-height: 40px;
 }
 
 .border-vertical-information-menu {

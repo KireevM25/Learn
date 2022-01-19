@@ -16,138 +16,75 @@
 
 <div data-template="../components/header.html"></div>
 
-<div class="drop-down-menu">
-    <div class="dropdown">
-        <button class="drop-btn">Fashion</button>
-        <div class="dropdown-content">
-            <form>
-                <input id="html" name="fav_language" type="checkbox" value="HTML">
-                <label for="html">HTML</label><br>
-                <input id="css" name="fav_language" type="checkbox" value="CSS">
-                <label for="css">CSS</label><br>
-                <input id="javascript" name="fav_language" type="checkbox" value="JavaScript">
-                <label for="javascript">JavaScript</label><br><br>
-            </form>
-        </div>
-    </div>
-    <div class="dropdown">
-        <button class="drop-btn">Product type</button>
-        <div class="dropdown-content">
-            <ul>
-                <li>sfds</li>
-                <li>sdvs</li>
-                <li>sdvsv</li>
-                <li>sdvsdvs</li>
-                <li>svsvs</li>
-            </ul>
-        </div>
-    </div>
+<div data-template="../components/drop-down-menu.html"></div>
 
-    <div class="dropdown">
-        <button class="drop-btn">Color</button>
-        <div class="dropdown-content">
-            <div class="select">
-                <form action="_self">
-                    <select>
-                        <option>First select</option>
-                        <option>Option</option>
-                        <option>Option</option>
-                    </select>
-                </form>
+    <div class="position-catalog">
+        <div class="catalog-filtered-product">
+            <div>
+                <a class="href" href="#"><img alt="" src="../assets/img/items/1.jpg">
+                    <p class="product-description">Only Skinny Jeans</p>
+                    <p class="price">£65.50</p>
+                </a>
             </div>
+                <div>
+                    <a class="href" href="#"><img alt="" class="picture" src="../assets/img/items/2.jpg">
+                        <p class="product-description">Neck Knitted Jumper</p>
+                        <p class="price">£76.25</p>
+                    </a>
+                </div>
+            <div>
+                <a class="href" href="#"><img alt="" src="../assets/img/items/3.jpg">
+                    <p class="product-description">Turtle Nrck Jumper in Rib </p>
+                    <p class="price">£130.25<span class="new-product">New</span></p>
+                </a>
+            </div>
+                <div>
+                    <a class="href" href="#"><img alt="" src="../assets/img/items/4.jpg">
+                        <p class="product-description">With Patchwork Crochet</p>
+                        <p class="price">£80.60</p>
+                    </a>
+                </div>
         </div>
     </div>
-
-    <div class="dropdown">
-        <button class="drop-btn">Brand</button>
-        <div class="dropdown-content">
-            <a href="#">Ссылка 1</a>
-            <a href="#">Ссылка 2</a>
-            <a href="#">Ссылка 3</a>
+    
+        <div class="discount-information-section">
+            <h1 class="main-text-information-section">
+                Last weekend <span class="tagget-text-information-section">extra 50%</span>
+                off on all reduced boots and shoulder bags
+            </h1>
+            <p class="subtext-information-section">
+                This offer is valid in-store and online.Prices displayed reflect this additional discount. This offer ends at
+                11:59 GMT on March 1st 2015
+            </p>
         </div>
+
+    <div class="first-products-section">
+        <div data-template="../components/item.html"></div>
+        <div data-template="../components/item.html"></div>
+        <div data-template="../components/item.html"></div>
+        <div data-template="../components/item.html"></div>
+        <div data-template="../components/item.html"></div>
+        <div data-template="../components/item.html"></div>
+        <div data-template="../components/item.html"></div>
+        <div data-template="../components/item.html"></div>
     </div>
 
-    <div class="dropdown">
-        <button class="drop-btn">Size</button>
-        <div class="dropdown-content">
-            <a href="#">Ссылка 1</a>
-            <a href="#">Ссылка 2</a>
-            <a href="#">Ссылка 3</a>
+        <div class="button">
+            <a href="#">
+                <button class="button-show-more">Showe more</button>
+            </a>
         </div>
+
+    <div class="border-horizont">
     </div>
 
-    <div class="dropdown">
-        <button class="drop-btn">Price range</button>
-        <div class="dropdown-content">
-            <a href="#">Ссылка 1</a>
-            <a href="#">Ссылка 2</a>
-            <a href="#">Ссылка 3</a>
+        <div class="best-product-section">
+            <div><img alt="" src="../assets/img/banners/bottom_left_650x384.jpg"></div>
+            <div><img alt="" src="../assets/img/banners/bottom_right_1_324x384.jpg"></div>
+            <div><img alt="" src="../assets/img/banners/bottom_right_2_325x384.jpg"></div>
         </div>
-    </div>
-</div>
-<div class="catalog-filtered-product">
-    <div>
-        <a class="href" href="#"><img alt="" src="../assets/img/items/1.jpg">
-            <p class="product-description">Only Skinny Jeans</p>
-            <p class="price">£65.50</p>
-        </a>
-    </div>
-    <div>
-        <a class="href" href="#"><img alt="" class="picture" src="../assets/img/items/2.jpg">
-            <p class="product-description">Neck Knitted Jumper</p>
-            <p class="price">£76.25</p>
-        </a>
-    </div>
-    <div>
-        <a class="href" href="#"><img alt="" src="../assets/img/items/3.jpg">
-            <p class="product-description">Turtle Nrck Jumper in Rib </p>
-            <p class="price">£130.25<span class="new-product">New</span></p>
-        </a>
-    </div>
-    <div>
-        <a class="href" href="#"><img alt="" src="../assets/img/items/4.jpg">
-            <p class="product-description">With Patchwork Crochet</p>
-            <p class="price">£80.60</p>
-        </a>
-    </div>
-</div>
-<div class="discount-information-section">
-    <h1 class="main-text-information-section">
-        Last weekend <span class="tagget-text-information-section">extra 50%</span>
-        off on all reduced boots and shoulder bags
-    </h1>
-    <p class="subtext-information-section">
-        This offer is valid in-store and online.Prices displayed reflect this additional discount. This offer ends at
-        11:59 GMT on March 1st 2015
-    </p>
-</div>
 
-<div class="first-products-section">
-    <div data-template="../components/item.html"></div>
-    <div data-template="../components/item.html"></div>
-    <div data-template="../components/item.html"></div>
-    <div data-template="../components/item.html"></div>
-    <div data-template="../components/item.html"></div>
-    <div data-template="../components/item.html"></div>
-    <div data-template="../components/item.html"></div>
-    <div data-template="../components/item.html"></div>
-</div>
-<div class="button">
-    <div class="button-link">
-        <a href="#">
-            <button class="button-show-more"><b>Showe more</b></button>
-        </a>
-    </div>
-</div>
-<div class="border-horizont">
-</div>
-<div class="best-product-section">
-    <div><img alt="" src="../assets/img/banners/bottom_left_650x384.jpg"></div>
-    <div><img alt="" src="../assets/img/banners/bottom_right_1_324x384.jpg"></div>
-    <div><img alt="" src="../assets/img/banners/bottom_right_2_325x384.jpg"></div>
-</div>
-
-<div data-template="../components/footer.html"></div>
+    <div data-template="../components/footer.html"></div>
 
 <script src="../scripts/templates.js"></script>
 
