@@ -1,7 +1,7 @@
 .information-menu {
     display: flex;
-    border-top: solid 1px gray;
-    border-bottom: solid 1px gray;
+    border-top: solid 1px #cfcfcf;
+    border-bottom: solid 1px #cfcfcf;
 }
 
 
@@ -54,7 +54,7 @@
 }
 
 .border-vertical-information-menu {
-    border-left: solid 1px gray;
+    border-left: solid 1px #cfcfcf;
     margin-left: 20px;
     height: 400px;
 }

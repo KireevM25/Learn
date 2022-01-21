@@ -77,7 +77,7 @@
 }
 
 .option-size-button input[type=radio]:checked+label {
-    border: solid 1px rgb(207, 207, 207);
+    border: solid 1px #cfcfcf;
 }
 
 
