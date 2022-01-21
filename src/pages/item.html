@@ -35,7 +35,6 @@
                 </div>
 
                 <div class="main-description-text">
-                    
                     <div>
                         <h2>Dark classic fit suit</h2>
                             <p>
@@ -46,34 +45,61 @@
                             £180.60
                         </p>
                     </div>
-                        
-                    <div class="options-product">
-                        <div class="size-product">
-                            <ul>
-                                <span>Size</span>
-                                <li><a href="#"> UK 52 </a></li>
-                                <li><a href="#"> UK 52 </a></li>
-                                <li><a href="#"> UK 52 </a></li>
-                            </ul>
+                <!-- choise of product options-->                    
+                        <div class="options-product">
+                    <!-- size options-->                        
+                            <div class="options-product-size">
+                                <span>Size:</span>
+                                    <div class="option-size-button">
+                                        <input id="size-botton1" type="radio" name="radio" value="UK 52">
+                                        <label for="size-botton1">UK 52</label>
+                                    </div>
+                                    <div class="option-size-button">
+                                        <input id="size-botton2" type="radio" name="radio" value="UK 54">
+                                        <label for="size-botton2">UK 54</label>
+                                    </div>
+                                    <div class="option-size-button">
+                                        <input id="size-botton3" type="radio" name="radio" value="UK 56">
+                                        <label for="size-botton3">UK 56</label>
+                                    </div>
+                            </div>
+                    <!-- color options-->
+                            <div class="options-product-color">
+                                <span>Color:</span>
+                                    <div class="position-button-product-color">
+                                        <div class="option-color-button">
+                                            <input id="color-botton1" type="radio" name="radio2" value="Blue">
+                                            <label for="color-botton1">Black</label>
+                                        </div>
+                                        <div class="option-color-button">
+                                            <input id="color-botton2" type="radio" name="radio2" value="Blue">
+                                            <label for="color-botton2">Blue</label>
+                                        </div>
+                                    </div>
+                                </div>
                         </div>
-                        
-                        <div class="color-product">
-                            <ul>
-                                <span>Color</span>
-                                <li><a href="#">Black</a></li>
-                                <li><a href="#">Blue</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
+                    <div class="button-buy-product">
+                        <a class="link-buy-product" href="#">Add to bag</a>
+                    </div> 
                 </div>
-
+        
             </div>
+            
+                <div class="advertising">
+                    <div>
+                        <img class="reglan" src="../assets/img/banners/bottom_left_650x384.jpg" alt="">
+                    </div>
+                    <div>
+                        <img class="jeans" src="../assets/img/banners/bottom_right_1_255x251.jpg" alt="">
+                    </div>
+                    <div>
+                        <img class="handbag" src="../assets/img/banners/right_255x251.jpg" alt="">
+                    </div>
+                </div>
                     
-    
-    <div data-template="../components/footer.html"></div>
+                <div data-template="../components/footer.html"></div>
+
 
     <script src="../scripts/templates.js"></script>
-
 </body>
 </html>

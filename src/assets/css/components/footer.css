@@ -1,6 +1,5 @@
 .information-menu {
     display: flex;
-    margin-top: 20px;
     border-top: solid 1px gray;
     border-bottom: solid 1px gray;
 }

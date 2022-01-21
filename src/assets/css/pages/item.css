@@ -19,22 +19,22 @@
 }
 
 .main-information {
-    border: solid 1px red;
     display: flex;
 }
 
-.main-img-product {
-    width: 50%;
-    border: solid 1px yellow;
+.main-img-product{
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+
+.main-description-text {
+    margin-top: 60px;
+    margin-left: 40px;
 }
 
 .img-product-small {
     display: flex;
-}
-
-.main-description-text {
-    border: solid 1px green;
-    width: 50%;
 }
 
 .main-description-text h2 {
@@ -52,62 +52,96 @@
     margin-top: 40px;
 }
 
-.size-product {
-    width: 53%;
+.options-product {
+    width: 400px;
+    height: 150px;  
 }
 
-.size-product ul {
-    display: flex;
-    list-style-type: none;
+/*button size and color section*/
+.option-size-button {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.option-size-button input[type=radio] {
+    display: none;
+}
+
+.option-size-button label {
+    display: inline-block;
+    padding: 5px 20px;
+    user-select: none; 
+    cursor: pointer;
+    line-height: 35px;
+    font-weight: bold;
+}
+
+.option-size-button input[type=radio]:checked+label {
+    border: solid 1px rgb(207, 207, 207);
+}
+
+
+.options-product-color span {
+    margin-top: 25px;  
+}
+
+.position-button-product-color {
+    display: inline-flex;
     justify-content: space-between;
+    width: 182px;
+    margin-left: 15px;
 }
 
-.size-product span {
-    text-align: center;
-    padding: 10px 0;
-    text-align: center;
-    width: 80px;
-    margin-left: -65px;
+.option-color-button {
+    margin-top: 10px;
 }
 
-.size-product li {
-    border: solid 1px black;
-    padding: 10px 0;
-    text-align: center;
-    width: 80px;
+.option-color-button input[type=radio] {
+    display: none;
 }
 
-.size-product a {
+.option-color-button label {
+    display: inline-block;
+    padding: 5px 20px;
+    user-select: none; 
+    cursor: pointer;
+    line-height: 35px;
+    font-weight: bold   ;
+}
+
+.option-color-button input[type=radio]:checked+label {
+    border: solid 1px rgb(207, 207, 207);
+}
+/*end button size and color section*/
+
+
+.link-buy-product {
+    padding: 15px 130px;
+    font-size: 30px;
+    border: solid 1px #cfcfcf;
     text-decoration: none;
-    color: black; 
+    color: black;
+    margin-left: 60px;
+    font-weight: bold;
 }
 
-.color-product {
-    margin-top: 30px;
-    width: 40%;
-}
-
-.color-product ul {
+.advertising {
+    margin-top: 130px;
     display: flex;
-    list-style-type: none;
-    justify-content: space-between;
+    height: 340px;
+    width: 100%;
+    border-top: solid 1px #cfcfcf;
 }
 
-.color-product span {
-    padding: 10px 0;
-    text-align: center;
-    width: 80px;
-    margin-left: -60px;
+.advertising img {
+    height: 340px;
 }
 
-.color-product li {
-    border: solid 1px black;
-    padding: 10px 0;
-    text-align: center;
-    width: 80px;
+.reglan {
+    width: 634px;
 }
 
-.color-product a {
-    text-decoration: none;
-    color: black; 
+.jeans,
+.handbag {
+    width: 323px;
 }
